@@ -1,0 +1,80 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["hi buddy","Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["I can guide you through Adverse speciality in Tek-up, Cycle, prépa and certification", "Offering support for Adverse modules in each specialities, certification, prépa"],
+         "context": [""]
+        },
+        {"tag": "costs",
+         "patterns": ["What are the annual costs to attend your university?", "how much?", "how costs one year?", "price?", "costs by year?"],
+         "responses": ["6600 for day classes and 7800 for modified day classes","6600 day courses and 7800 night couses"],
+         "context": [""]
+        },
+        {"tag": "costs",
+         "patterns": ["What are the annual costs to attend your university?", "how much?", "how costs one year", "price?", "costs by year" ],
+         "responses": ["6600 for day classes and 7800 for modified day classes"],
+         "context": [""]
+        },
+        {"tag": "payment",
+         "patterns": ["I want to search for the payment methods", "What are the payment methods", "payment method", "how can I pay", "method of payment" ],
+         "responses": [" the payment methods are M1/M2 AND M3 and all details of the study fees", "M1 or M2"],
+         "context": [""]
+        },
+        {"tag": "search_blood_pressure_by_patient_id",
+         "patterns": [],
+         "responses": ["Loading Blood pressure result for Patient"],
+         "context": [""]
+        },
+        {"tag": " ",
+         "patterns": [" ", " ", " ", " ", " " ],
+         "responses": [" "],
+         "context": [" "]
+        },
+        {"tag": "bourse",
+         "patterns": ["Do you automatically award scholarships or do I have to apply?"],
+         "responses": ["No automatic scholarship", "No, you must apply"],
+         "context": [""]
+        },
+        {"tag": "specialties",
+         "patterns": ["Lookup for the specialties at TEK-UP", "Searching the specialties", "What are the specialties at TEK-UP?", "specialties at TEK-UP", "Looking up specialities details" ],
+         "responses": ["DSEN/SSIR/GL/DMWM", "Data science,Genie Logiciel,security,developpement"],
+         "context": [""]
+        },
+        {"tag": "requirements",
+         "patterns": ["What are the requirements to join tek-up?", "requirements", "how to join tek-up"],
+         "responses": ["admission to TEKUP depends on the interview"],
+         "context": [""]
+        },
+        {"tag": "years",
+         "patterns": ["How many years do we study at tek-up?","years of study"],
+         "responses": ["It all depends on your level of study and the last diploma you got."],
+         "context": [""]
+        },
+{"tag": "ml",
+         "patterns": ["model"],
+         "responses": ["svm","kmeans","knn"],
+         "context": [""]
+        }
+
+        
+   ]
+}
